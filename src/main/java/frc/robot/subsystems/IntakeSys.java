@@ -28,11 +28,11 @@ public class IntakeSys extends SubsystemBase {
 		intakePivot.configContinuousCurrentLimit(10);
 		intakePivot.setNeutralMode(NeutralMode.Brake);
 	}
-
+/*
 	private double getDegrees() {
 		return intakePivot.getSelectedSensorPosition() / 4096.0 + 90;
 	}
-
+*/
 	public void setIntake(double num) {
 		intakeWheel.set(num);
 	}
